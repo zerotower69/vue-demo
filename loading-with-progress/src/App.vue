@@ -2,7 +2,7 @@
  * @Author: zerotower69 zerotower@163.com
  * @Date: 2023-03-14 21:48:11
  * @LastEditors: zerotower69 zerotower@163.com
- * @LastEditTime: 2023-03-14 23:05:11
+ * @LastEditTime: 2023-03-15 21:19:07
  * @FilePath: /loading-with-progress/src/App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -13,7 +13,7 @@ import { onMounted } from "vue";
 onMounted(() => {
   const loading = createLoading(function (setStatus, remove) {
     setTimeout(() => {
-      setStatus(false)
+      setStatus(true)
       // setTimeout(() => { 
       //   remove()
       // },3000)
